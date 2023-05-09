@@ -61,4 +61,13 @@ body {
 .attribution {
   display: flex;
   justify-content: center;
+}
+
+@media all and (max-width: 768px) {
+  .attribution {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 32px;
+  }
 }/*# sourceMappingURL=styleqrcode.css.map */
